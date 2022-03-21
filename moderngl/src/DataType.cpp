@@ -1,9 +1,9 @@
 #include "Types.hpp"
 
-static int float_base_format[5] = {0, GL_RED, GL_RG, GL_RGB, GL_RGBA};
+static int float_base_format[5] = {0, GL_LUMINANCE, GL_RG, GL_RGB, GL_RGBA};
 static int int_base_format[5] = {0, GL_RED_INTEGER, GL_RG_INTEGER, GL_RGB_INTEGER, GL_RGBA_INTEGER};
 
-static int f1_internal_format[5] = {0, GL_R8, GL_RG8, GL_RGB8, GL_RGBA8};
+static int f1_internal_format[5] = {0, GL_LUMINANCE, GL_RG8, GL_RGB8, GL_RGBA8};
 static int f2_internal_format[5] = {0, GL_R16F, GL_RG16F, GL_RGB16F, GL_RGBA16F};
 static int f4_internal_format[5] = {0, GL_R32F, GL_RG32F, GL_RGB32F, GL_RGBA32F};
 static int u1_internal_format[5] = {0, GL_R8UI, GL_RG8UI, GL_RGB8UI, GL_RGBA8UI};
